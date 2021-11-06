@@ -19,6 +19,14 @@ const cardsEl = document.querySelector(".cards-el");
 const playerEl = document.querySelector(".player-el");
 playerEl.textContent = `${player.name}: ${player.money}$`;
 
+//windows load propert
+
+//buttons style
+startGame.addEventListener("mouseover", () =>{
+  startGame.style.transform = "scale(1.2)";
+  startGame.style.opacity = 1;
+});
+
 startGame.addEventListener("click", () => {
   isAlive = true;
   fistCard = getRandomCard();

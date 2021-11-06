@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("cover.jpeg") center/cover no-repeat fixed;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  color: wheat;
+  font-size: 1.5rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.center {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  color: goldenrod;
+}
+button {
+  text-transform: uppercase;
+  width: 200px;
+  height: auto;
+  background: goldenrod;
+  color: wheat;
+  padding: 10px 0;
+  margin: 2px;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  opacity: 0.5;
+  transition: all 0.5s linear;
+}
+button:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+#message-el {
+  font-style: italic;
+}
